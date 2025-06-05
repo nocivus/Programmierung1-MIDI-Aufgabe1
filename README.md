@@ -37,7 +37,7 @@ Implementieren Sie die folgenden Dinge in der Klasse `MIDItools`:
 
 ## Aufgabe 1
 
-Implementieren Sie eine Methode `getNote(char note, int octave, boolean sharp)`, die als ein `byte` zurückgibt, welches die von dem übergebenen Zeichen repräsentierte MIDI-Note zurückgibt. Die Zuordnungstabelle finden Sie auf [dieser Seite](http://www.music.mcgill.ca/~ich/classes/mumt306/StandardMIDIfileformat.html#BMA1_) unter "Appendix 1.3 - Table of MIDI Note Numbers".
+Implementieren Sie eine Methode `getNote(char note, int octave, boolean sharp)`, die als ein `byte` zurückgibt, welches die von dem übergebenen Zeichen repräsentierte MIDI-Note zurückgibt. Die Zuordnungstabelle finden Sie auf [dieser Seite](https://midimusic.github.io/tech/midispec.html#BMA1_3) unter "Appendix 1.3 - Table of MIDI Note Numbers".
 
 Zur Erklärung: Noten sind in wiederkehrenden Oktaven angeordnet. Jede Oktave enthält in aufsteigender Höhe die Noten C, D, E, F, G, A und B. Zur Verwirrung des Gegners sind die Abstände in Halbnoten unterteilt, wobei zwischen manchen Noten zwei und zwischen manchen Noten eine Halbnote Abstand liegt. Zwischen C und D beispielsweise beträgt der Abstand 2 Halbnoten, zwischen E und F beträgt der Abstand nur eine Halbnote.
 
